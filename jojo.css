@@ -1,0 +1,96 @@
+*{
+    border-radius: 0%;
+    
+}
+
+
+
+/* ===== ESTILO GERAL ===== */
+body {
+    font-family: Arial, sans-serif; /* Fonte */
+    margin: 0; /* Remove margem padrão */
+    background-color: #0b0014; /* Fundo roxo escuro (tema JoJo) */
+    color: #fff; /* Texto branco */
+}
+
+/* ===== CABEÇALHO ===== */
+header {
+    background-color: #1a0033; /* Fundo roxo */
+    text-align: center; /* Centraliza */
+    padding: 20px; /* Espaçamento */
+    border-bottom: 3px solid #ff00ff; /* Linha rosa */
+}
+
+/* ===== CONTAINER ===== */
+.container {
+    display: flex; /* Deixa lado a lado */
+    align-items: center; /* Alinha no meio */
+    gap: 30px; /* Espaço entre imagem e texto */
+    padding: 67px; /* Espaço interno */
+    margin: 15px; /* Espaço externo */
+    background-color: #140026; /* Fundo do bloco */
+    border-radius: 67px; /* Bordas arredondadas */
+}
+
+/* ===== IMAGEM ===== */
+img {
+    width: 250px; /* Tamanho */
+    border-radius: 20px; /* Arredonda */
+}
+
+/* ===== TEXTO ===== */
+.texto {
+    max-width: 600px; /* Limita largura */
+}
+
+/* ===== TÍTULOS ===== */
+h2 {
+    color: #ff00ff; /* Cor estilo JoJo */
+}
+
+.container:nth-child(even) {
+    flex-direction: row-reverse; /* inverte imagem e texto */
+}
+
+footer{
+    background-color: #1a0033; /* Fundo roxo */
+    text-align: center; /* Centraliza */
+    padding: 20px; /* Espaçamento */
+    border-top: 3px solid #ff00ff; /* Linha rosa */
+}
+
+img {
+    transition: 0.3s; /* Faz a animação acontecer de forma suave em 0.3 segundos */
+}
+
+img:hover {
+    transform: scale(1.1); /* Aumenta a imagem em 10% quando o mouse passa por cima */
+}
+
+.container {
+    background-color: #111111;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    
+}
+
+.container {
+    overflow: hidden; /* impede a imagem de sair do card */
+}
+
+.voltar {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #6a0dad;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.voltar:hover {
+    background-color: #b266ff;
+    transform: scale(1.05);
+}

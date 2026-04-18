@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: radial-gradient(circle, #2a003f, #0b0014);
+    color: white;
+}
+
+/* ===== HEADER ===== */
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(90deg, #1a0033, #3b0a57);
+    border-bottom: 3px solid #b266ff;
+}
+
+/* perfil (imagem + texto lado a lado) */
+.perfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* imagem do Gengar */
+.perfil img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px #b266ff;
+    transition: 0.3s;
+}
+
+/* hover na imagem */
+.perfil img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+/* nome */
+header h1 {
+    color: #d6a3ff;
+    text-shadow: 0 0 15px #b266ff;
+    margin: 0;
+}
+
+/* subtítulo */
+header p {
+    color: #ddd;
+    margin: 5px 0 0 0;
+}
+
+/* ===== CONTAINERS ===== */
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: rgba(20, 0, 40, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(178, 102, 255, 0.3);
+    border: 1px solid #6a0dad;
+}
+
+/* títulos */
+h2 {
+    color: #d6a3ff;
+    text-shadow: 0 0 8px #b266ff;
+}
+
+/* cards */
+.card {
+    background-color: rgba(40, 0, 70, 0.8);
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-left: 4px solid #b266ff;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a0033;
+    border-top: 2px solid #b266ff;
+    color: #aaa;
+}
+
+
+
+.voltar {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #6a0dad;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
